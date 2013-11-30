@@ -12,6 +12,10 @@ CPack doesn't let you do that out of the box.
 The modules in cmake/ can be used for that exactly,
 check out the whole repository to see a working example.
 
+Please use out-of-source builds, in-source builds are a bad thing.
+
+    mkdir build && cd build && cmake .. && make package
+
 More information can be found on my blog-post: http://knzl.de/cmake-debhelper/
 
 Debian Packaging reference: http://www.debian.org/doc/manuals/maint-guide/
