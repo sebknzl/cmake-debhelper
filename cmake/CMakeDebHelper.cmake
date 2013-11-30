@@ -1,5 +1,6 @@
 #=============================================================================
-# Copyright (C) 2013 Sebastian Kienzl
+# CMakeDebHelper, Copyright (C) 2013 Sebastian Kienzl
+# http://knzl.de/cmake-debhelper/
 # Licensed under the GPL v2, see LICENSE
 #=============================================================================
 
