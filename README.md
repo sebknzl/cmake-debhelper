@@ -20,6 +20,5 @@ Debian Packaging reference: http://www.debian.org/doc/manuals/maint-guide/
 License
 -------
 
-  CMakeDebHelper
-  Copyright (C) 2013 Sebastian Kienzl
-  Licensed under the GPL v2, see LICENSE
+CMakeDebHelper: Copyright (C) 2013 Sebastian Kienzl;
+Licensed under the GPL v2, see LICENSE
