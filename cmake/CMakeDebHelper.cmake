@@ -17,7 +17,7 @@ file( WRITE ${CMAKE_CURRENT_BINARY_DIR}/compat "9" )
 if( NOT CPACK_DEBIAN_PACKAGE_NAME )
 	string( TOLOWER "${CPACK_PACKAGE_NAME}" CPACK_DEBIAN_PACKAGE_NAME )
 endif()
-file( WRITE ${CMAKE_CURRENT_BINARY_DIR}/control "Package: ${CPACK_DEBIAN_PACKAGE_NAME}\nArchitecture: any\n" )
+file( WRITE ${CMAKE_CURRENT_BINARY_DIR}/control "Package: ${CPACK_DEBIAN_PACKAGE_NAME}\nArchitecture: any\nSource: ${CPACK_DEBIAN_PACKAGE_NAME}\n" )
 
 # Some debhelpers need fakeroot, we use it for all of them
 find_program( FAKEROOT fakeroot )
